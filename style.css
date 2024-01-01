@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+    border-radius: 20px;
+}
+.logo{
+    color: white;
+    margin-left: 25px;
+}
+button{
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: -450px;
+    
+}
+ul{
+    margin: 20px;
+    
+}
+
+ul li{
+    display: inline-block;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+ul li a{
+    padding: 5px;
+    color: white;
+}
+.content .description{
+    margin: 20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+
+.image-grid{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;   
+}
+
+.column-1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.column-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.column-3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+}
+.Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Follow-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.Help{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot-project{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.foot-project li{
+    display: inline-block;
+    margin: 0;
+    padding: 2px;
+}
+.foot-help{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.foot-help li{
+    display: inline-block;
+    margin: 0;
+}
+.social a {
+    font-size: 30px;
+    color: white;
+}
